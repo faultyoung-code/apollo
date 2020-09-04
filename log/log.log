@@ -1,0 +1,28 @@
+2020-09-02 11:50:30.326  INFO 49768 --- [main] c.apollo.clientapp.ClientAppApplication  : Starting ClientAppApplication on farben with PID 49768 (started by Administrator in E:\项目\apollo)
+2020-09-02 11:50:30.330  INFO 49768 --- [main] c.apollo.clientapp.ClientAppApplication  : No active profile set, falling back to default profiles: default
+2020-09-02 11:50:31.584  INFO 49768 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9098 (http)
+2020-09-02 11:50:31.611  INFO 49768 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-02 11:50:31.612  INFO 49768 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2020-09-02 11:50:31.760  INFO 49768 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-09-02 11:50:31.761 DEBUG 49768 --- [main] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2020-09-02 11:50:31.761  INFO 49768 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1371 ms
+2020-09-02 11:50:31.903  INFO 49768 --- [main] c.apollo.clientapp.config.LoggerConfig   : logging.level.com.howie.shiro.mapper:DEBUG
+2020-09-02 11:50:31.906  INFO 49768 --- [main] c.apollo.clientapp.config.LoggerConfig   : logging.level.org.springframework.web:DEBUG
+2020-09-02 11:50:32.009 DEBUG 49768 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2020-09-02 11:50:32.272 DEBUG 49768 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-09-02 11:50:32.360 DEBUG 49768 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2020-09-02 11:50:32.376 DEBUG 49768 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-09-02 11:50:32.386 DEBUG 49768 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-09-02 11:50:57.855  INFO 49768 --- [http-nio-9098-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-09-02 11:50:57.856 DEBUG 49768 --- [http-nio-9098-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2020-09-02 11:50:57.866 DEBUG 49768 --- [http-nio-9098-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2020-09-02 11:50:57.866  INFO 49768 --- [http-nio-9098-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2020-09-02 11:50:57.876 DEBUG 49768 --- [http-nio-9098-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/test", parameters={}
+2020-09-02 11:50:57.893 DEBUG 49768 --- [http-nio-9098-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.util.Map com.apollo.clientapp.controller.TestController.test() throws java.lang.Exception
+2020-09-02 11:50:57.911 ERROR 49768 --- [http-nio-9098-exec-1] c.a.clientapp.controller.TestController  : ========================================error=======================================
+2020-09-02 11:50:57.972 DEBUG 49768 --- [http-nio-9098-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json;q=0.8', given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-09-02 11:50:57.973 DEBUG 49768 --- [http-nio-9098-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing [{code=200, serverport=9098, message=成功}]
+2020-09-02 11:50:58.010 DEBUG 49768 --- [http-nio-9098-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-09-02 14:31:34.485  INFO 49768 --- [Apollo-Config-2] c.apollo.clientapp.config.LoggerConfig   : logging.level:info
+2020-09-02 14:57:22.931  INFO 49768 --- [Apollo-Config-4] c.apollo.clientapp.config.LoggerConfig   : logging.level.com.howie.shiro.mapper:DEBUG
+2020-09-02 14:57:22.939  INFO 49768 --- [Apollo-Config-4] c.apollo.clientapp.config.LoggerConfig   : logging.level.org.springframework.web:DEBUG
